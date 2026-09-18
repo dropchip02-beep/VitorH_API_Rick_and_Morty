@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio Rick and Morty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorteio Rick and Morty</h1>
+        <p>Sorteie um personagem aleatório sem repetir!</p>
+        
+        <!-- Requisito 2: Campo de entrada participando da consulta -->
+        <div class="search-box">
+            <input type="number" id="idInput" min="1" max="825" placeholder="ID (1 até 826)">
+            <button id="drawBtn">Sortear Personagem</button>
+        </div>
+
+        <!-- Requisito 9: Feedback ao usuário -->
+        <div id="feedback" class="feedback hidden">Carregando...</div>
+
+        <!-- Requisito 7 e 10: Área para apresentar dados dinamicamente -->
+        <div id="result" class="result hidden">
+            <!-- Os dados serão injetados aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
