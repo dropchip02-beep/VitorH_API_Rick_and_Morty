@@ -21,4 +21,4 @@ Uma aplicação Web dinâmica e interativa desenvolvida para consumir a API REST
 3. **Manipulação do DOM:** Uso intensivo de `document.getElementById`, `addEventListener` e `innerHTML` para injetar os dados (imagem, nome, status, espécie e origem) diretamente na página sem necessidade de recarregamento.
 
 ## Como executar
-Basta clonar este repositório e abrir o arquivo `index.html` em qualquer navegador moderno. Nenhuma instalação adicional (como Node.js) é estritamente necessária para rodar a interface.
+Basta clonar este repositório e abrir o arquivo `index.html` em qualquer navegador moderno.
